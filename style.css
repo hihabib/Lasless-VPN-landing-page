@@ -199,10 +199,46 @@ p {
 }
 
 .network img {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .users {
-    display: flex;
-    margin-top: 100px;
-    justify-content: space-between;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+footer {
+  background-color: #f8f8f8;
+}
+footer > div {
+  display: flex;
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  color: #4f5665;
+  padding: 100px 0;
+}
+
+footer .about {
+  flex-basis: 40%;
+}
+footer .navigation {
+  flex-basis: 20%;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 20px;
+}
+footer ul a {
+  font-weight: 400;
+  color: #4f5665;
+}
+.users img {
+  height: 60px;
+  width: 190px;
 }
